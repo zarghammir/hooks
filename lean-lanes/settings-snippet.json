@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "$HOME/.claude/hooks/lean-lanes-start.sh", "timeout": 10 }] }
+    ]
+  }
+}
